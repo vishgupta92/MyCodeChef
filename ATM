@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	double bal; int wid;
+	scanf("%d %lf",&wid,&bal);
+	if(wid>0 && wid<=2000 && bal>0.0 && bal<=2000.0){
+	if(wid%5==0 && (double)(wid+0.5)<=bal)
+	{
+		bal=bal-wid-0.5;
+		
+	}
+	  printf("%.2lf",bal);
+	}
+	return 0;
+}
