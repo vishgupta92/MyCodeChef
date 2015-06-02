@@ -8,7 +8,6 @@ int main()
 	if(wid%5==0 && (double)(wid+0.5)<=bal)
 	{
 		bal=bal-wid-0.5;
-		
 	}
 	  printf("%.2lf",bal);
 	}
